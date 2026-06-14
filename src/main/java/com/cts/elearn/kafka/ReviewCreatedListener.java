@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 import java.math.BigDecimal;
 
 @Slf4j
-@Component
+//@Component
 public class ReviewCreatedListener {
 
     private final CourseRepository courseRepository;

@@ -20,6 +20,11 @@ public class CourseController {
         return courseService.createCourse(course);
     }
 
+    @GetMapping("/test")
+    public String test() {
+        return "Course Service Working";
+    }
+
     @GetMapping("/{id}")
     public Course getCourse(@PathVariable Long id) {
         return courseService.getCourseById(id);

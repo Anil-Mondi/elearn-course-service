@@ -13,7 +13,7 @@ import org.springframework.kafka.core.ProducerFactory;
 import com.fasterxml.jackson.databind.JsonSerializer;
 import com.fasterxml.jackson.databind.ser.std.StringSerializer;
 
-@Configuration
+//@Configuration
 public class KafkaProducerConfig {
 
     @Bean
