@@ -1,9 +1,7 @@
-package com.example.demo;
+package com.cts.elearn;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-
-import com.cts.elearn.CourseServiceApplication;
 
 @SpringBootTest(classes = CourseServiceApplication.class)
 class CourseServiceApplicationTests {
